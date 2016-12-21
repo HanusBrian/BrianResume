@@ -1,22 +1,42 @@
-<!doctype>
+<!DOCTYPE html>
+<head>
+  <meta name="viewport" content="width=device-width" />
+  <script src="https://use.fontawesome.com/510e247720.js"></script>
+  <link rel="stylesheet" type="text/css" href="../style/style.css"></link>
+  <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+  <script src="https://www.google.com/jsapi" type="text/javascript"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="/script/script.js"></script>
+</head>
 <html>
-    <head>
-        <style>
-        h1, h2 {
-            font-family: "arial";
-            text-align: center;
-        }
-        </style>
-    </head>
-    <body>
-        <h1>Grunt Test</h1>
-        <h2>Getting Started file</h2>
-        <input type="button" onclick="handleButton()" value="Press the button!"/>
-    </body>
-    <script>
-        function handleButton(e) {
-            alert("Button Pressed!!!")
-        }
-    </script>
-    <script src="//localhost:35729/livereload.js"></script>
+<body>
+<div class="fluid-container">
+  <div class="crosshatch1"></div>
+  <div class="crosshatch2"></div>
+  <div class="crosshatch3"></div>
+  <div class="crosshatch4">
+    <a href="/homepage.html">
+      <button id="btn-cont" class="btn btn-success">Continue to the website...</button>
+    </a>
+  </div>
+  <div class="crosshatch5"></div>
+  <div class="horizontal-strip1">
+    <div class="content-area">
+      <blockquote id="quote-content"></blockquote>
+      <small>-</small>
+      <small id="quote-author"></small>
+      <div class="button-bar">
+        <a id="btn-tweet" target="_blank" title="Tweet this quote!"><button class="btn btn-info" id="btn-twitter">
+          <i class="fa fa-twitter btn-twit"></i>
+        </a>
+    <button id="get-quote" class="btn btn-info new-quote-button">New Quote</button>
+      </div>
+    </div>
+  </div>
+  <div class="horizontal-strip2"></div>
+</div>
+</body>
+<script src="//localhost:35729/livereload.js"></script>
 </html>
